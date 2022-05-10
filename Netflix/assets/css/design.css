@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/8e07a611-4ced-4d4e-81e6-d278862c952b/IN-en-20220502-popsignuptwoweeks-perspective_alpha_website_medium.jpg') no-repeat;
+    box-shadow: inset 400px 400px 250px #00000086, inset -400px -400px 300px #0000007a;	
+}
+
+.container {
+    min-height: 132vh;
+}
+
+#logo {
+    width: 170px;;
+    fill: #e50914;
+    z-index: 0;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+form {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: .3rem;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    padding-bottom:140px;
+    margin-top: 6rem;
+   
+}
+
+form h1{
+    margin-bottom: 28px;
+}
+
+.form-group{
+     width: 100%;
+     height: 50px;
+     margin-bottom: 16px;
+     position: relative;
+}
+
+.form-group input{
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: .3rem;
+    outline: none;
+    color: #fff;
+    padding: 16px 20px 0;
+    font-size: 1rem;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+    pointer-events: none;
+    transition: 200ms ease-in-out transform,
+                200ms ease-in-out font-size;
+                
+}
+
+.form-group input:focus ~ label,
+
+.form-group input:valid ~ label {
+    transform: translateY(-1.25rem);
+    font-size: .7rem;
+}
+
+form button {
+    width: 100%;
+    height: 48px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    margin: 24px 0 12px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remember label {
+    font-size: .85rem;
+    color: #b3b3b3;
+}
+
+.remember a {
+    color: #b3b3b3;
+    font-size: .85rem;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    margin-top: 100px;
+}
+
+.signup p {
+    color: #737373;
+}
+
+.signup p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup p a:hover {
+    text-decoration: underline;
+}
+
+.captcha {
+    font-size: .8rem;
+    color: #8c8c8c;
+    margin-top: 0.5rem;
+}
+ 
+.captcha a {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.captcha a:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: -70vh;;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 30px 170px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .top {
+    margin-bottom: 30px;
+}
+
+footer .links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .links a {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 16px;
+    font-size: 0.8rem;
+}
+
+footer select{
+    margin-top: 20px;
+    margin-left: 3px;
+    color: grey;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+footer select{
+    border: 1px solid grey;
+    padding: 7px;
+    text-align: center;
+}
